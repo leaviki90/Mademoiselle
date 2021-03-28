@@ -3,9 +3,14 @@ html {
 }
 $font-size-base: 1.6rem;
 
-$body-color: #1E1E1E;
 $light: #F5F5F5;
+$dark: #1E1E1E;
+$primary: #D0B6B6;
 $secondary: #ECD9D9;
+$body-color: $dark;
+
+
+
 $grid-gutter-width: 1.2rem;
 $grid-breakpoints: (
   xs: 0,
@@ -37,4 +42,11 @@ $spacers: (
   8: $spacer *4,
   9: $spacer * 4.5,
   10: $spacer * 5,
-) !default;
+);
+
+$navbar-light-color: $dark;
+$navbar-light-hover-color: $primary;
+$navbar-light-active-color: $primary;
+           
+
+
