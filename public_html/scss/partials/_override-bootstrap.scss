@@ -44,9 +44,19 @@ $spacers: (
   10: $spacer * 5,
 );
 
+ 
+
+
+
 $navbar-light-color: $dark;
 $navbar-light-hover-color: $primary;
 $navbar-light-active-color: $primary;
            
+
+$btn-font-size: 1.7rem !important;
+$btn-line-height: 1.4rem;
+$input-btn-padding-y:         14px;
+$input-btn-padding-x:         36px;
+$btn-border-radius:           unset;
 
 
