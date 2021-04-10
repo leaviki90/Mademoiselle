@@ -115,7 +115,14 @@ $(document).ready(function(){
     //Form Validation
 
     
-    
+    if($('.professional-slider').length > 0){
+         $(".professional-slider").owlCarousel({
+             items: 1,
+             autoplay: true,
+             loop: true,
+             dots: false
+         });
+    }
     
     
     
