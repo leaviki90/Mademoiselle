@@ -21,6 +21,14 @@ $hover-title-color: $dark;
         padding: 22px 19px 57px 18px;
         margin: 0 auto;
         margin-top: -100px;
+        .about & {
+            @media(min-width: 576px){
+                margin-top: -25px;
+            }
+            @media(min-width: 1200px){
+                margin-top: -100px;
+            }
+        }
         position: relative;
         max-width: 313px;
         max-height: 161px;
@@ -50,4 +58,3 @@ $hover-title-color: $dark;
     } //blog-item-data
   } //blog-item
 } //blog-list
-
