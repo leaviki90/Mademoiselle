@@ -47,3 +47,17 @@ $hero-title-color: #FFF;
     } //hero-section title 
 } //hero ends
 
+.hero-section.about-hero {
+    @media(min-width: 992px){
+        padding-top: 283px;
+        padding-bottom: 284px;  
+
+    } 
+}
+.hero-section.blog-hero {
+    @media(min-width: 992px){
+        padding-top: 283px;
+        padding-bottom: 263px;  
+
+    } 
+}
