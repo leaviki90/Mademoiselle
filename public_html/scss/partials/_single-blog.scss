@@ -74,7 +74,14 @@ $tags-hover-bg: $secondary;
             font-size: 2rem;
             line-height: 2.8rem;
         }
+        .single-service &{
+            p {
+                font-size: 1.8rem;
+                line-height: 2.6rem;
+            }
+        }
     }//blog-intro
+
     .single-blog-content {
         max-width: 748px;
         margin: 0 auto;
@@ -113,3 +120,4 @@ $tags-hover-bg: $secondary;
         } //tags
     } //single-blog-content
 }//single-blog section
+
