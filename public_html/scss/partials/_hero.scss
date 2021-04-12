@@ -63,3 +63,13 @@ $hero-title-color: #FFF;
     } 
  
 }
+.eror-hero {
+    height: 100vh;
+}
+.hero-section.eror-hero {
+    @media(min-width: 992px){
+        padding-top: 277px;
+        padding-bottom: 278px;  
+
+    } 
+}
