@@ -6,7 +6,7 @@ $link-color: $dark;
         margin-bottom: 58px;
 
     }
-    
+
 
     @media(min-width: 576px){
         .service-info-item:nth-of-type(odd) .service-info-image {
@@ -54,7 +54,15 @@ $link-color: $dark;
     }//service-info-content
 
 }//service-info
-
+.service-info.services {
+    padding: 50px 0 37px;
+    @media(min-width:768px){
+        padding-top: 70px;
+    }
+    @media(min-width:992px){
+        padding-top: 88px;
+    }
+}
 
 
 

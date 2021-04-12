@@ -47,7 +47,8 @@ $hero-title-color: #FFF;
     } //hero-section title 
 } //hero ends
 
-.hero-section.about-hero {
+.hero-section.about-hero,
+.hero-section.services-hero {
     @media(min-width: 992px){
         padding-top: 283px;
         padding-bottom: 284px;  
@@ -60,4 +61,5 @@ $hero-title-color: #FFF;
         padding-bottom: 263px;  
 
     } 
+ 
 }
