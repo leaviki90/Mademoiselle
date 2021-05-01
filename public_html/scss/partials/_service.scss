@@ -7,13 +7,12 @@ $link-color: $dark;
 
     }
 
-
+    .service-info-item:nth-of-type(even) .service-info-content {
+        background-color: $secondary;
+    }
     @media(min-width: 576px){
         .service-info-item:nth-of-type(odd) .service-info-image {
             order: 2;
-        }
-        .service-info-item:nth-of-type(even) .service-info-content {
-            background-color: $secondary;
         }
 
     }
