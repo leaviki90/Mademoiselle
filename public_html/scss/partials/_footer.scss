@@ -1,0 +1,30 @@
+$footer-social-color: $secondary;
+$footer-copy-color: $dark;
+footer {
+    padding: 25px 0 25px;
+    @media(min-width: 992px){
+        padding-top: 49px;
+    }
+    .copyright {  
+        a {
+            color: $footer-copy-color;
+            &:hover {
+                color: lighten($footer-copy-color, 20%);
+            }
+        }
+    } //copyright ends
+    .social {
+        margin-bottom: 18px;
+        a {
+            font-size: 2rem;
+            color: $footer-social-color;
+            margin: 0 16px;
+            transition: 0.3s linear;
+            &:hover {
+                color: darken($footer-social-color, 20%);
+            }
+        }
+    } //social
+}
+
+

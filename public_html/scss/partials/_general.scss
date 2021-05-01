@@ -1,0 +1,82 @@
+$body-font: $lato;
+$headings-font: $bodoni;
+$placeholder-bg-color: $secondary;
+
+
+
+img {
+    max-width: 100%;
+}
+body {
+    font-family: $body-font;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    @media(min-width: 576px){
+        padding-top: 30px;
+    }
+    @media(min-width: 768px){
+        padding-top: 50px;
+    }
+   @media(min-width: 992px){
+        padding-top: 84.5px;
+    }
+    
+        
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: $bodoni;
+}
+
+.section-title {
+    font-size: 3rem;
+    line-height: 4.5rem;
+    letter-spacing: 0.5rem;
+}
+a {
+    text-decoration: none;
+}
+.copyright {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 4.1rem;
+    letter-spacing: -0.17px;
+    text-align: center;
+}
+
+
+.image-placeholder {
+    position: relative;
+    overflow: hidden; 
+    
+  
+}
+.image-placeholder:after {
+    content: '';
+    display: block;
+    padding-top: 56.62%;
+}
+.image-placeholder img {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.size-1by1:after {
+    padding-top: 100%;
+}
+.size-1by2:after {
+    padding-top: 200%;
+}
+
+.size-4by3:after {
+    padding-top: 66.49%;
+    background: $placeholder-bg-color url('../img/logo-placeholder.gif') no-repeat center center;
+    background-size: contain;  
+}
+

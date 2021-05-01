@@ -1,0 +1,75 @@
+$hero-title-color: #FFF;
+
+
+
+.hero-section {
+    padding: 155px 0 155px;
+    background-position: center top; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    @media(min-width: 576px){
+        padding-top: 170px;
+        padding-bottom: 190px;
+    }
+    @media(min-width: 768px){
+        padding-top: 190px;
+        padding-bottom: 218px;  
+
+    }
+    @media(min-width: 992px){
+        padding-top: 218px;
+        padding-bottom: 269px;  
+
+    }
+    .hero-section-title {
+        text-align: center;
+        color: $hero-title-color;
+        font-size: 3rem;
+        line-height: 4.4rem;
+        letter-spacing: 1rem;
+        @media(min-width: 450px){
+            font-size: 4rem;
+            line-height: 4.4rem;
+            letter-spacing: 1rem;     
+        }
+        @media(min-width: 576px){
+            font-size: 5rem;
+            line-height: 6.4rem;
+            letter-spacing: 1rem;  
+
+        }
+        @media(min-width: 768px){
+            font-size: 6rem;
+            line-height: 8.4rem;
+            letter-spacing: 2rem;  
+
+        }
+    } //hero-section title 
+} //hero ends
+
+.hero-section.about-hero,
+.hero-section.services-hero {
+    @media(min-width: 992px){
+        padding-top: 283px;
+        padding-bottom: 284px;  
+
+    } 
+}
+.hero-section.blog-hero {
+    @media(min-width: 992px){
+        padding-top: 283px;
+        padding-bottom: 263px;  
+
+    } 
+ 
+}
+.eror-hero {
+    height: 100vh;
+}
+.hero-section.eror-hero {
+    @media(min-width: 992px){
+        padding-top: 277px;
+        padding-bottom: 278px;  
+
+    } 
+}
