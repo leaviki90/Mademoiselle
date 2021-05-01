@@ -1,0 +1,69 @@
+html {
+    font-size: 10px;
+}
+$font-size-base: 1.6rem;
+
+$light: #F5F5F5;
+$dark: #1E1E1E;
+$primary: #D0B6B6;
+$secondary: #ECD9D9;
+$body-color: $dark;
+
+
+
+$grid-gutter-width: 1.2rem;
+$grid-breakpoints: (
+  xs: 0,
+  xm: 450px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+ // xxl: 1400px
+);
+
+$container-max-widths: (
+  //sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  //xxl: 1320px
+);
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer / 2,
+  2: $spacer,
+  3: $spacer * 1.5,
+  4: $spacer * 2,
+  5: $spacer * 2.5,
+  6: $spacer *3,
+  7: $spacer *3.5,
+  8: $spacer *4,
+  9: $spacer * 4.5,
+  10: $spacer * 5,
+);
+
+ 
+
+
+
+$navbar-light-color: $dark;
+$navbar-light-hover-color: $primary;
+$navbar-light-active-color: $primary;
+           
+
+$btn-font-size: 1.7rem !important;
+$btn-line-height: 1.4rem;
+$input-btn-padding-y:         14px;
+$input-btn-padding-x:         36px;
+$btn-border-radius:           unset;
+
+$pagination-padding-y:              1.6rem;
+$pagination-padding-x:              1.6rem;
+$pagination-color:                 #1E1E1E;
+$pagination-active-color:            #1E1E1E;
+$pagination-active-bg:              transparent;
+$pagination-active-border-color:    none;
+$pagination-hover-bg:               $secondary;
+

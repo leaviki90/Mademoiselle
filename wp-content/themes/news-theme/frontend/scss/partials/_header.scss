@@ -1,0 +1,66 @@
+$toggler-bg: $primary;
+$links-hover-color: $primary;
+header {
+    .navbar-brand {
+        max-width: 200px;
+        img {
+            display: block;
+            padding-bottom: 5px;
+        }
+    } //logo
+    .navbar-toggler {
+        border: none;
+        &:focus {
+            outline: unset;
+            box-shadow: none;
+        }
+        span {
+            display: block;
+            width: 30px;
+            height: 3px;
+            background-color: $toggler-bg;
+            margin-bottom: 5px;
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+    } //navbar-toggler
+    
+    .navbar-nav {
+        li {
+            @media(min-width: 768px){
+                margin-left: 50px;
+            }
+            @media(min-width: 992px){
+                margin-left: 72px;
+            }
+            a {
+                text-align: center;
+                font-size: 1.4rem;
+                line-height: 1.7rem;
+                font-weight: 400;
+                padding: 5px;
+                text-transform: uppercase;
+                transition: 0s linear;
+                @media(min-width: 768px){
+                    &:hover {
+                        color: $dark !important; 
+                        border-bottom: 1px solid $secondary;
+                    }
+                    &:active {
+                        color: $primary !important; 
+                        border-bottom: 1px solid $secondary;
+                    }
+                    &.active {
+                        color: $dark !important; 
+                        border-bottom: 1px solid $secondary;
+                    }
+                } //media ends here
+            } //a ends here
+        } //li ends here
+    } //navbar-nav
+
+}// header ends
+
+
+
