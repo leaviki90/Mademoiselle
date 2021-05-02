@@ -30,7 +30,7 @@
         <header class="bg-white fixed-top py-1 py-sm-2 py-md-4">
             <nav class="navbar navbar-expand-md navbar-light">
                 <div class="container">
-                    <a class="navbar-brand" href="<?PHP echo get_template_directory_uri(); ?>/frontend/img/logo.png">
+                    <a class="navbar-brand" href="<?PHP echo get_home_url();  ?>">
                         <img src="<?PHP echo get_template_directory_uri(); ?>/frontend/img/logo.png" alt=""/>
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
