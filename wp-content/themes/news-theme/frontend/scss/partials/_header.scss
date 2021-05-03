@@ -1,9 +1,12 @@
 $toggler-bg: $primary;
 $links-hover-color: $primary;
 header {
-    .navbar-brand {
+    .navbar-brand, .custom-logo-link {
         max-width: 200px;
+        max-height: 30.5px;
+        display: block;
         img {
+            max-height: 30.5px;
             display: block;
             padding-bottom: 5px;
         }

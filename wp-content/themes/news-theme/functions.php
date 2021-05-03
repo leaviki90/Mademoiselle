@@ -22,3 +22,24 @@ function news_theme_scripts(){
 }
 
 add_action( 'wp_enqueue_scripts', 'news_theme_scripts' );
+
+//THEME SETUP
+
+function  news_theme_setup(){
+    add_theme_support( 'automatic-feed-links' );
+    load_theme_textdomain( 'news-theme', get_template_directory() . '/languages' );
+    add_theme_support( 'custom-logo', array(
+        'height'               => 30.5,
+        'width'                => 200,
+        'flex-height'          => true,
+        'flex-width'           => true,
+        'unlink-homepage-logo' => false, 
+    ) );
+    register_nav_menus(array(
+        "main-menu" => __("Main Menu", "news-theme"),
+        "social" => __("Social", "news-theme")
+    ));
+    
+}
+
+add_action( 'after_setup_theme', 'news_theme_setup' );
