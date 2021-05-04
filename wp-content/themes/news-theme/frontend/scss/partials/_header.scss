@@ -1,4 +1,5 @@
 $toggler-bg: $primary;
+$links-color: $dark;
 $links-hover-color: $primary;
 header {
     .navbar-brand, .custom-logo-link {
@@ -44,6 +45,7 @@ header {
                 font-weight: 400;
                 padding: 5px;
                 text-transform: uppercase;
+                color: $links-color;
                 transition: 0s linear;
                 @media(min-width: 768px){
                     &:hover {

@@ -29,40 +29,8 @@
     <body <?PHP body_class(); ?>>
         <header class="bg-white fixed-top py-1 py-sm-2 py-md-4">
             <nav class="navbar navbar-expand-md navbar-light">
-                <div class="container">
-                    <?PHP
-                    if (has_custom_logo()):
-                        the_custom_logo();
-                    else:
-                        ?>
-                        <a class="navbar-brand" href="<?PHP echo get_home_url(); ?>">
-                            <img src="<?PHP echo get_template_directory_uri(); ?>/frontend/img/logo.png" alt=""/>
-                        </a>
-                    <?PHP
-                    endif;
-                    ?>
-                    
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="main-menu">
-<!--                        <ul class="navbar-nav ms-auto mb-2 mb-md-0">
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">about</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="services.html">services</a>
-                            </li>
-                             <li class="nav-item">
-                                <a class="nav-link" href="blog.html">blog</a>
-                            </li>
-                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html">contact</a>
-                            </li>
-                        </ul>  Navbar-nav ends here -->
-                    </div> <!-- #main-menu ends -->
+                <div class="container">   
+                    <?php get_template_part("template-parts/main-menu"); ?>
                 </div> <!-- Container ends -->
             </nav> <!-- Navbar ends -->
         </header> <!-- Header ends  -->

@@ -1,10 +1,6 @@
        <footer>
-            <div class="social text-center">
-                <a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-f"></a>
-                <a href="https://www.twitter.com/" target="_blank" class="fab fa-twitter"></a>
-                <a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram"></a>
-            </div>
-            <p class="copyright mb-0">Copyright &copy 2019 <a href="index.html">Mademoiselle</a></p>
+            <?php get_template_part("template-parts/social-menu");  ?>
+           <p class="copyright mb-0"><?php printf("Copyright", "news-theme"); ?> &copy <?PHP echo date("Y"); ?> <a href="<?PHP echo home_url(); ?>"><?PHP bloginfo("name"); ?></a></p>
         </footer>
    
         <?PHP wp_footer(); ?>
