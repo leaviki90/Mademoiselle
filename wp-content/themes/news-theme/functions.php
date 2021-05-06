@@ -39,6 +39,7 @@ function  news_theme_setup(){
         "main-menu" => __("Main Menu", "news-theme"),
         "social" => __("Social", "news-theme")
     ));
+    add_theme_support( 'post-thumbnails' );
     
 }
 

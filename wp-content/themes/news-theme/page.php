@@ -9,10 +9,12 @@ get_header();
 
 if(have_posts()):
     while(have_posts()): the_post();
-    ?>
-<h2><?PHP the_title(); ?></h2>
-<div><?PHP the_content(); ?></div>
-<?PHP
+    
+    get_template_part("template-parts/hero-section");
+
+      
+    
+
     endwhile;
 endif;
 
