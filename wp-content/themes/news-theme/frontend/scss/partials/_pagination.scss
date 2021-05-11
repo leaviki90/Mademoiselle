@@ -1,0 +1,21 @@
+$nav-links-color: $dark;
+.navigation {
+    .nav-links {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        .page-numbers {
+            color: lighten($nav-links-color, 30%);
+            border: unset;
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+            width: 4rem;
+            height: 4rem;
+            text-align: center;
+            font-weight: 700;
+            &.current {
+                color: $dark;
+            }
+        }
+    }
+}

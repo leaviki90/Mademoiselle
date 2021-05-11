@@ -40,6 +40,7 @@ function  news_theme_setup(){
         "social" => __("Social", "news-theme")
     ));
     add_theme_support( 'post-thumbnails' );
+    add_image_size("blog-thumb", 748, 498, true);
     
 }
 
