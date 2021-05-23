@@ -22,9 +22,9 @@
         <link rel="icon" type="image/png" href="<?PHP echo get_template_directory_uri(); ?>/frontend/android-icon-192x192.png">
 
         <link rel="icon" type="image/ico" href="<?PHP echo get_template_directory_uri(); ?>/frontend/favicon.ico">
-       
-<?PHP wp_head(); ?>
- 
+
+        <?PHP wp_head(); ?>
+
     </head>
     <body <?PHP body_class(); ?>>
         <header class="bg-white fixed-top py-1 py-sm-2 py-md-4">

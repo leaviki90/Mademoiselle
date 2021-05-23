@@ -21,17 +21,19 @@ $tags-hover-bg: $secondary;
     @media(min-width: 1200px){
         padding: 165px 0 263px;
     }
+    .category-wrapper {
     .category {
-        display: inline-block;
         font-family: $category-font;
         font-weight: bold;
-        color: $category-font-color;
         font-size: 1.4rem;
         line-height: 1.7rem;
         letter-spacing: 1px;
-        margin-right: 1rem;
         &:hover {
             color: darken($category-hover-color, 20%);
+        }
+        a {
+            color: $category-font-color;
+            text-transform: capitalize;
         }
     }//category
     .date {
@@ -42,6 +44,7 @@ $tags-hover-bg: $secondary;
         margin-left: 1rem;
 
     }
+    } //category-wrapper
     .intro-row {
         margin-bottom: 30px;
         @media(min-width: 768px){

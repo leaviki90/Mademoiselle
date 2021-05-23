@@ -19,3 +19,15 @@ This theme, like WordPress, is licensed under the GPL.
 .logged-in header {
     top: 32px;
 }  
+
+.search-icon {
+    width: 21.67px;
+    height: 23px;
+}
+.wpcf7-response-output {
+    border: none !important;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+}

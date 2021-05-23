@@ -7,6 +7,13 @@ $link-color: $dark;
 
     }
 
+    .service-info-item img:hover {
+        animation: shake 0.5s;
+        animation-iteration-count: infinite;
+
+    }
+    
+    
     .service-info-item:nth-of-type(even) .service-info-content {
         background-color: $secondary;
     }
