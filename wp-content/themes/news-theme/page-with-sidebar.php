@@ -16,7 +16,6 @@ get_header();
                 <!-- Col 1 starts -->
                 <div class="col-12 col-sm-8 mb-5 mb-sm-0 px-4 px-sm-1">
                     <article class="about-blog">
-                        <h2><?php the_field("short_desc"); ?></h2>
                         <?php the_content(); ?>
                     </article> <!-- About-blog ends -->
                 </div><!-- Col 1 ends -->

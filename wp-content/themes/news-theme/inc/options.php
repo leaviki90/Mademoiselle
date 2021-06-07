@@ -33,7 +33,7 @@ function newsTheme_contact_data() {
             <tr>
                 <th>Address:</th>
                 <td>
-                    <input type="text" name="newstheme_address" value="<?PHP
+                    <input type="text" name="newstheme_address" value="><?PHP
                     echo esc_attr(get_option("newstheme_address"));
                     ?>">
                 </td>
