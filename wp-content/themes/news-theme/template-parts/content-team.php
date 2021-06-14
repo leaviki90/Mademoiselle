@@ -12,7 +12,7 @@
         <div class="col-12 col-sm-6 col-md-5 col-lg-4 px-4 px-sm-3 px-md-0 col-slider-content">
             <article class="slider-content">
                 <h3>
-                    <a href="<?PHP the_permalink(); ?>"><?PHP the_title(); ?></a>
+                    <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                 </h3>
                 <p><?php the_field("short_desc"); ?></p>
             </article>

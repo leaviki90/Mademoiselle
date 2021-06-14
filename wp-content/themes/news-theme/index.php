@@ -18,12 +18,12 @@ get_header();
                         while (have_posts()): the_post();
                             ?>
                             <div class="col-12 col-sm-6 col-lg-4 px-4 px-sm-2 mb-6 mb-sm-4">
-                                <?PHP
+                                <?php
                                 get_template_part("template-parts/content-news");
                                 ?>
                             </div>    
 
-                            <?PHP
+                            <?php
                         endwhile;
 
                         get_template_part("template-parts/number-pagination");
@@ -38,6 +38,6 @@ get_header();
     endif;
     ?> 
 </main>
-<?PHP
+<?php
 get_footer();
 

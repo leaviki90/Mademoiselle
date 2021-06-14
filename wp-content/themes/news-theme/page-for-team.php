@@ -8,9 +8,9 @@
 get_header();
 ?>
 <main>
-    <?PHP get_template_part("template-parts/hero-section"); ?>
+    <?php get_template_part("template-parts/hero-section"); ?>
 
-    <?PHP
+    <?php
     $arg = array(
         "post_status" => "publish",
         "post_type" => "team-members",
@@ -27,7 +27,7 @@ get_header();
     <?php printf(__("TRUST OUR PROFESSIONALS", "news-theme")); ?>
                 </h2>
 
-    <?PHP
+    <?php
     while ($teamMembers->have_posts()) {
         $teamMembers->the_post();
         get_template_part("template-parts/content-team-page");
@@ -36,7 +36,7 @@ get_header();
             </div>
 
         </section><!-- Services ends here -->
-    <?PHP
+    <?php
 } else {
     get_template_part("template-parts/content-none");
 }
@@ -53,6 +53,6 @@ wp_reset_postdata();
 
 
 </main>
-<?PHP
+<?php
 get_footer();
 

@@ -19,7 +19,7 @@ if (have_posts()):
                         </div>
                         <div class="col-12 col-md-6 px-4 px-md-0 mb-4 mb-md-0">
                             <figure class="mb-0 h-100">
-        <?PHP the_post_thumbnail("blog-single"); ?>
+        <?php the_post_thumbnail("blog-single"); ?>
                             </figure>
                         </div> 
                     </div><!-- Intro-row ends -->
@@ -29,14 +29,14 @@ if (have_posts()):
                 </div> <!-- Container ends here -->
             </section> <!-- single-blog section ends -->
 
-        <?PHP
+        <?php
     endwhile;
     get_template_part("template-parts/single-pagination");
 
 endif;
 ?> 
 </main>
-    <?PHP
+    <?php
     get_footer();
 
     

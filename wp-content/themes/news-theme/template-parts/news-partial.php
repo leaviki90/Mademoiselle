@@ -22,18 +22,18 @@ if ($blogNews->have_posts()) {
                         $blogNews->the_post();
                         ?>
                         <div class="col-12 col-sm-6 col-lg-4 px-4 px-sm-2 mb-6 mb-sm-4 mb-lg-0">
-                            <?PHP
+                            <?php
                             get_template_part("template-parts/content-news");
                             ?>
                         </div>
-                        <?PHP
+                        <?php
                     }
                     ?>
                 </div>
             </div>
         </div>
     </section>
-    <?PHP
+    <?php
 }
 wp_reset_postdata();
 ?> <!--blog news added -->

@@ -8,7 +8,7 @@
 get_header();
 ?>
 <main>
-    <?PHP get_template_part("template-parts/hero-section"); ?>
+    <?php get_template_part("template-parts/hero-section"); ?>
     <!-- About section starts here -->
     <section class="about">
         <div class="container">
@@ -28,11 +28,11 @@ get_header();
 
                     </div> 
                 </div>
-            </div> <!-- Col 2 ends -->
-        </div> <!-- Row ends -->
+
+            </div> <!-- Row ends -->
         </div> <!-- Container ends -->
     </section> <!-- About section ends -->
 </main>
-<?PHP
+<?php
 get_footer();
 

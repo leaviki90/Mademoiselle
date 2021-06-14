@@ -1,4 +1,4 @@
-<?PHP
+<?php
 $arg = array(
     "post_status" => "publish",
     "post_type" => "team-members",
@@ -12,10 +12,10 @@ if ($teamMembers->have_posts()) {
     <section class="professional">
         <div class="container text-center text-lg-start">
             <h2 class="section-title text-uppercase animation slideRight" data-animation="slideRight">
-                <a href="<?PHP the_field("homepage_team_title") ?>"><?php printf(__("TRUST OUR PROFESSIONALS", "news-theme")); ?></a>
+                <a href="<?php the_field("homepage_team_title") ?>"><?php printf(__("TRUST OUR PROFESSIONALS", "news-theme")); ?></a>
             </h2>
             <div class="professional-slider owl-carousel owl-theme">
-                <?PHP
+                <?php
                 while ($teamMembers->have_posts()) {
                     $teamMembers->the_post();
 
@@ -26,7 +26,7 @@ if ($teamMembers->have_posts()) {
             </div>   
         </div> <!-- Container ends -->
     </section><!-- Professional ends here -->   
-    <?PHP
+    <?php
 } else {
     get_template_part("template-parts/content-none");
 }

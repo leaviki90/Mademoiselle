@@ -5,7 +5,7 @@
     <div class="blog-item-data">
         <p><?php echo get_the_date(); ?></p>
         <h3>
-            <a href="<?php the_permalink(); ?>" target="_blank"><?PHP the_title(); ?></a> 
+            <a href="<?php the_permalink(); ?>" target="_blank"><?php the_title(); ?></a> 
         </h3>
     </div>
 </article>

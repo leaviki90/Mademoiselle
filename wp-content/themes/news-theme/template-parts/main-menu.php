@@ -1,12 +1,12 @@
-<?PHP
+<?php
 if (has_custom_logo()):
     the_custom_logo();
 else:
     ?>
-    <a class="navbar-brand" href="<?PHP echo get_home_url(); ?>">
-        <img src="<?PHP echo get_template_directory_uri(); ?>/frontend/img/logo.png" alt=""/>
+    <a class="navbar-brand" href="<?php echo get_home_url(); ?>">
+        <img src="<?php echo get_template_directory_uri(); ?>/frontend/img/logo.png" alt=""/>
     </a>
-<?PHP
+<?php
 endif;
 ?>
 

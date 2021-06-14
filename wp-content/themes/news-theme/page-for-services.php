@@ -8,11 +8,11 @@
 get_header();
 ?>
 <main>
-    <?PHP get_template_part("template-parts/hero-section"); ?>
+    <?php get_template_part("template-parts/hero-section"); ?>
     <section class="service-info services">
         <div class="container">
             <h2 class="text-uppercase section-title text-center text-lg-start animation" data-animation="slideRight"><?php the_field("homepage_services_title", get_option("page_on_front")); ?></h2>
-            <?PHP
+            <?php
             $arg = array(
                 "post_status" => "publish",
                 "post_type" => "our-services",
@@ -26,7 +26,7 @@ get_header();
                 ?>
                 <div class="services-list">
                     <div class="row">
-                        <?PHP
+                        <?php
                         while ($services->have_posts()) {
                             $services->the_post();
                             get_template_part("template-parts/content-services");
@@ -34,7 +34,7 @@ get_header();
                         ?>
                     </div>
                     </section><!-- Services ends here -->
-                    <?PHP
+                    <?php
                 } else {
                     get_template_part("template-parts/content-none");
                 }

@@ -2,7 +2,7 @@
 get_header();
 ?>
 <main>
-    <?PHP
+    <?php
     get_template_part("template-parts/hero-section");
 
     get_template_part("template-parts/news-partial");
@@ -23,7 +23,7 @@ get_header();
         <section class="service-info">
             <div class="container">
                 <h2 class="text-uppercase section-title text-center text-lg-start animation slideRight" data-animation="slideRight"><?php echo $ServicesTitle; ?></h2>
-                <?PHP
+                <?php
                 while ($services->have_posts()) {
                     $services->the_post();
                     get_template_part("template-parts/content-services");
@@ -31,15 +31,15 @@ get_header();
                 ?>
             </div>
         </section><!-- Services ends here -->
-        <?PHP
+        <?php
     }
 
     wp_reset_postdata();
     ?> <!---  Services added -->
 
-    <?PHP get_template_part("template-parts/team-slider-partial"); ?>              
+    <?php get_template_part("template-parts/team-slider-partial"); ?>              
 
 </main>
-<?PHP
+<?php
 get_footer();
 

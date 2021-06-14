@@ -14,6 +14,6 @@ if (!empty($socialMenuItems)) {
         }
         ?>
     </div>
-    <?PHP
+    <?php
 }
 

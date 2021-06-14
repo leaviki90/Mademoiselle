@@ -24,7 +24,7 @@ if (have_posts()):
                         </div>
                         <div class="col-12 col-md-6 px-4 px-md-0 mb-4 mb-md-0">
                             <figure class="mb-0 h-100">
-                                <img src="<?php the_post_thumbnail_url(); ?>" alt=""/>
+                                <?php the_post_thumbnail_url(); ?>
                             </figure>
                         </div> 
                     </div><!-- Intro-row ends -->
@@ -52,7 +52,7 @@ if (have_posts()):
                     </article> <!-- single-blog-content ends -->
                 </div> <!-- Container ends here -->
             </section> <!-- single-blog section ends -->
-<?PHP
+<?php
     endwhile;
    get_template_part("template-parts/single-pagination");
   
@@ -60,5 +60,5 @@ endif;
 
 ?> 
 </main>
-<?PHP get_footer();
+<?php get_footer();
 

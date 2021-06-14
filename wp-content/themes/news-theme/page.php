@@ -10,14 +10,14 @@ get_header();
 
                     <form class="contact-form" method="post" action="">
                         <h2 class="section-title text-center text-sm-start text-uppercase mb-2"><?PHP printf(__("Please contact us using the form bellow", "news-theme")); ?></h2>
-                        <?PHP the_content(); ?>
+                        <?php the_content(); ?>
                     </form>  
                 </div> <!-- Col 1 ends -->
 
                 <!-- Col 2 starts -->
                 <div class="col-12 col-sm-6 col-md-5">
                     <div class= "contact-map">
-                        <?PHP the_field("contact_map"); ?>
+                        <?php the_field("contact_map"); ?>
                     </div>
                 </div>
             </div> <!-- Row ends -->
@@ -27,11 +27,11 @@ get_header();
     <section class="contact-address">
         <div class="container">
             <div class="address-info text-center">
-                <?PHP get_template_part("template-parts/contact-data"); ?>
+                <?php get_template_part("template-parts/contact-data"); ?>
             </div> <!-- Address-info ends here -->
         </div> <!-- Container ends here -->
     </section> <!-- contact-address ends -->
 </main>
-<?PHP get_footer();
+<?php get_footer();
 
 
